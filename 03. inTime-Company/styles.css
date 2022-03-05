@@ -1,0 +1,277 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css");
+html {
+    font-family: Helvetica, sans-serif;
+}
+
+.wrapper {
+    padding: 2.5rem 12rem;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 0.4rem;
+}
+
+.site-name {
+    font-size: 2rem;
+    color: #586773;
+}
+
+.site-name-span {
+    color: #22a9c2;
+}
+
+.header-nav-ul {
+    display: flex;
+    gap: 2rem;
+}
+
+.header-nav-ul-li {
+    text-transform: uppercase;
+    font-size: 1.2rem;
+    padding: 0.5rem 0;
+}
+
+.header-nav-ul-li:first-of-type {
+    border-bottom: 4px solid #22a9c2;
+}
+
+.nav-anchor {
+    text-decoration: none;
+    color: #586773;
+}
+
+.main-image {
+    position: relative;
+    margin-bottom: 3rem;
+}
+
+.main-image-image {
+    width: 100%;
+}
+
+.promotion {
+    position: absolute;
+    background-color: black;
+    height: 200px;
+    width: 500px;
+    top: 38%;
+    left: 12rem;
+    opacity: 0.6;
+}
+
+.promotion-title {
+    font-size: 2.5rem;
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+}
+
+.promotion-btn {
+    text-transform: uppercase;
+    background-color: #22a9c2;
+    font-size: 2rem;
+    color: white;
+    border: none;
+    opacity: 1;
+    border-radius: 2rem;
+    padding: 0.5rem 2rem;
+}
+
+.promotion-promotion {
+    color: white;
+    padding: 1rem;
+    position: absolute;
+    top: 38%;
+    left: 12rem;
+    height: auto;
+    width: 450px;
+    line-height: 1.2;
+}
+
+.welcome {
+    text-align: center;
+    margin-bottom: 3rem;
+    padding: 2.5rem 12rem;
+}
+
+.welcome-title {
+    text-transform: uppercase;
+    font-size: 2rem;
+    color: #363f46;
+}
+
+.welcome-title::after {
+    position: relative;
+    height: 4px;
+    width: 110px;
+    left: 45%;
+    top: auto;
+    background: #22a9c2;
+    display: block;
+    content: "";
+    margin: 0.6rem 0;
+}
+
+.welcome-text {
+    font-size: 1.2rem;
+    color: #586773;
+    line-height: 1.2;
+    margin-bottom: 2rem;
+}
+
+.welcome-btn {
+    font-size: 1.2rem;
+    background-color: #454545;
+    color: white;
+    padding: 0.8rem 2rem;
+    border: none;
+    border-radius: 2rem;
+}
+
+.services {
+    background-color: #eef0f1;
+    padding: 2.5rem 12rem;
+}
+
+.title {
+    text-align: center;
+}
+
+.services-title {
+    margin-top: 2rem;
+    text-transform: uppercase;
+    font-size: 2rem;
+    color: #363f46;
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+.services-title::after {
+    position: relative;
+    height: 4px;
+    width: 110px;
+    left: 45%;
+    top: auto;
+    background: #363f46;
+    display: block;
+    content: "";
+    margin: 0.6rem 0;
+}
+
+.services-grid {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    gap: 4rem;
+}
+
+card {
+    width: auto;
+}
+
+.card-image {
+    max-width: 100%;
+    border-top-left-radius: 0.5rem;
+    border-top-right-radius: 0.5rem;
+}
+
+.inner-card {
+    padding: 2rem;
+    text-align: center;
+    color: #454545;
+    background-color: white;
+    border-bottom-left-radius: 0.5rem;
+    border-bottom-right-radius: 0.5rem;
+}
+
+.card-title {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.card-description {
+    font-size: 1.2rem;
+}
+
+.btn-service {
+    font-size: 1.2rem;
+    background-color: #454545;
+    color: white;
+    padding: 0.8rem 2rem;
+    border: none;
+    border-radius: 0.4rem;
+    margin-top: 2rem;
+}
+
+.subscribe {
+    background-color: #393f43;
+    padding: 2.5rem 12rem;
+    text-align: center;
+    color: white;
+}
+
+.subscribe-title {
+    margin-top: 2rem;
+    text-transform: uppercase;
+    font-size: 2rem;
+    color: #fff;
+    text-align: center;
+    margin-bottom: 1.5rem;
+}
+
+.subscribe-title::after {
+    position: relative;
+    height: 4px;
+    width: 110px;
+    left: 45%;
+    top: auto;
+    background: #fff;
+    display: block;
+    content: "";
+    margin: 0.6rem 0;
+}
+
+.email-input {
+    background-color: #545a5e;
+    padding: 1rem;
+    margin: 1rem 0 1rem 0;
+    width: 50%;
+    font-size: 1.1rem;
+    font-style: italic;
+    border: none;
+    border-radius: 0.5rem;
+}
+
+.btn-subscribe {
+    font-size: 1.2rem;
+    background-color: #6bbfff;
+    color: white;
+    padding: 1rem 3rem;
+    border: none;
+    border-radius: 0.4rem;
+    margin-top: 2rem;
+    text-transform: uppercase;
+}
+
+.socials {
+    background-color: #2f3539;
+    display: grid;
+    gap: 2rem;
+    grid-template-columns: repeat(4, auto);
+    padding: 2.5rem 12rem;
+    color: white;
+    font-size: 1.5rem;
+}
+
+.socials>* {
+    background-color: #2f3539;
+}
+
+.footer p {
+    background-color: #262b2f;
+    font-size: 1.2rem;
+    padding: 1rem 0;
+    text-align: center;
+    color: white;
+}

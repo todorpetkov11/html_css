@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif');
+.main {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.main-container {
+    background-image: url("./image/image1.png");
+    background-repeat: no-repeat;
+    font-family: PT Serif, serif;
+    padding: 1.9rem 1.5rem;
+    display: flex;
+    gap: 2rem;
+    box-shadow: 0 0 1rem gray;
+    width: 900px;
+}
+
+.main-header-title {
+    font-size: 1.6rem;
+    font-weight: bold;
+    border-bottom: 1px green dotted;
+    text-align: center;
+    padding-bottom: 0.5rem;
+}
+
+.main-header-description {
+    display: flex;
+    justify-content: space-between;
+    font-style: italic;
+    padding-top: 0.5rem;
+    margin-bottom: 3rem;
+}
+
+.main-recipe {
+    margin-bottom: calc(3rem - 0.8rem);
+}
+
+.main-recipe-product {
+    margin-bottom: 0.8rem;
+}
+
+.main-recipe-quantity {
+    color: green;
+    font-weight: 600;
+}
+
+.main-description {
+    margin-bottom: 2.5rem;
+    line-height: 1.5;
+    font-size: 1rem;
+}
+
+.table-table {
+    border: green 1px solid;
+    text-align: center;
+    width: 100%;
+}
+
+th {
+    font-weight: bolder;
+}
+
+th,
+td {
+    border: green 1px solid;
+    padding: 0.3rem;
+}
+
+.main-content {
+    width: 50%;
+}
+
+.main-image {
+    width: 50%;
+}
+
+.main-image-image {
+    height: 100%;
+    max-width: 100%;
+}

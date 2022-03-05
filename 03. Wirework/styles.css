@@ -1,0 +1,124 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css");
+html {
+    font-family: Helvetica, sans-serif;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 1.6rem 2.2rem;
+    align-items: center;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.title {
+    display: flex;
+    align-items: baseline;
+}
+
+.title-title {
+    font-size: 1.9rem;
+    text-transform: uppercase;
+    border-right: 2px solid lightgray;
+    margin-right: 0.7rem;
+    padding-right: 0.7rem;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.title-credits {
+    text-transform: uppercase;
+    font-size: 0.7rem;
+    color: gray;
+}
+
+.navigation-list {
+    display: flex;
+    gap: 1px
+}
+
+.navigation-list-item {
+    text-transform: uppercase;
+    font-size: 0.8rem;
+    color: black;
+    background-color: lightgrey;
+    padding: 1.1rem 1.2rem;
+    text-align: center;
+    cursor: pointer;
+    transition: all 200ms ease-in-out;
+}
+
+.navigation-list-item-link {
+    text-decoration: none;
+    color: inherit;
+}
+
+.navigation-list-item:hover {
+    background-color: orangered;
+    color: white;
+}
+
+.main-image {
+    position: relative;
+    margin-bottom: -14rem;
+    z-index: -1;
+    text-align: center;
+}
+
+.main-image-image {
+    max-width: 100%;
+    box-sizing: border-box;
+    border-radius: 4rem 4rem 0 0;
+}
+
+.main-description {
+    background-color: orangered;
+    color: white;
+    padding: 5rem 9rem;
+    text-align: center;
+    line-height: 1.7;
+    max-width: 100%;
+    border-radius: 4rem 4rem 0 0;
+}
+
+.main-benefits {
+    background-color: #373737;
+    padding: 4rem 5rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 2rem;
+}
+
+.main-benefits-benefit {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.main-benefits-benefit-icon {
+    font-size: 4rem;
+    padding: 1rem;
+    color: white;
+    background-color: orangered;
+    text-align: center;
+    width: 5rem;
+    margin-bottom: 2rem;
+    border-radius: 2rem;
+}
+
+.main-benefits-benefit-title {
+    color: white;
+    text-align: center;
+    font-size: 1.1rem;
+}
+
+.main-benefits-benefit-text {
+    font-size: 0.9rem;
+    border-top: darkgrey 1px solid;
+    padding-top: 1.2rem;
+    margin-top: 1.5rem;
+    color: gray;
+    text-align: center;
+    line-height: 1.6;
+}
